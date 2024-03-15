@@ -3,6 +3,7 @@ import cv2
 import numpy
 import tensorflow as tf
 import pandas as pd
+import matplotlib.pyplot as plt
 
 # Carregar modelos
 detector = hub.load("https://tfhub.dev/tensorflow/efficientdet/lite2/detection/1")
